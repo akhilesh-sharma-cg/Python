@@ -1,5 +1,7 @@
 text = input("ENTER A STRING: ")
-
+count=0
 for i in text:
+   
     if "A" <= i <= "Z":
-        print(i)
+         count=count + 1
+print(count)
