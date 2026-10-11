@@ -1,0 +1,17 @@
+account = int(input("Enter account type: "))
+
+match account:
+    case 1:
+        print("Savings Account")
+    case 2:
+        print("Current Account")
+
+operation = int(input("Enter operation: "))
+
+match operation:
+    case 1:
+        print("Check Balance Selected")
+    case 2:
+        print("Deposit Selected")
+    case 3:
+        print("Withdraw Selected")
