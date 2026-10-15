@@ -1,0 +1,5 @@
+def show_pattern():
+    print("*")
+    print("**")
+    print("***")
+show_pattern()    
